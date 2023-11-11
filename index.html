@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter&family=Karla:wght@400;800&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="app-container">
+            <h1>Generate a<br /><span class="blue-text">random password</span></h1>
+            <div class="user-input-container">
+                <label for="length-input">Password character length:</label>
+                <input class="blue-text user-input" id="length-input" type="text" name="pw-length">
+                <p class="help-text">(15 characters long unless otherwise specified)</p>
+            </div>
+            <button onclick="updateFields()">Generate passwords</button>
+            <hr />
+            <div class="pw-field-container">
+                <label for="pw-field1">Option 1:</label>
+                <input class="pw-field" id="pw-field1" type="text" name="password1">
+                <label for="pw-field2">Option 2:</label>
+                <input class="pw-field" id="pw-field2" type="text" name="password2">
+            </div>
+        </div>
+
+        <script src="index.js"></script>
+    </body>
+</html>

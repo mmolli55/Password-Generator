@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    background-color: #F0F9FF;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    color:  #6B7280;
+}
+
+div.app-container {
+    margin: 0 auto;
+    padding: 30px;
+    max-width: 700px;
+}
+
+div.pw-field-container {
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+h1 {
+    font-family: 'Karla', sans-serif;
+    font-weight: 800;
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+
+.blue-text {
+    color:  #0EA5E9;
+}
+
+h2 {
+    font-size: 20px;
+    color: #6B7280;
+    margin-top: 0;
+}
+
+div.user-input-container {
+    margin-top: 20px;
+}
+
+p.help-text {
+    font-size: 14px;
+    font-style:  italic;
+    margin-top: 5px;
+}
+
+button {
+    cursor:pointer;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: #0EA5E9;
+    font-size: 16px;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    width: 200px;
+    height: 40px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+}
+
+label {
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 15px;
+}
+
+input:focus {
+    outline: 3px solid #0EA5E9;
+}
+
+input {
+    border-radius: 6px;
+    border: none;
+    min-width: 240px;
+    height: 40px;
+    font-size: 18px;
+    padding-left: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: block;
+}
+
+input.user-input {
+    background-color: #D1D5DB;
+    color: #273549;
+}
+
+input.pw-field {
+    background-color: #273549;
+    color: #0EA5E9;
+}
+
+
+
+
+
